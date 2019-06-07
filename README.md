@@ -29,9 +29,18 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+    PropTypes check for the type of data being passed into components as props. Important because it ensures the wrong data doesn't come into the app that could break it.
+
 - [ ] Describe a life-cycle event in React?
+    Life cycle events such as componentDidMount allow you to input commands based on the timeline of loading/updating in the React app. CDM triggers on load and only once.
+
 - [ ] Explain the details of a Higher Order Component?
+    Higher Order Components take another component in as an argument
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+    You can style with Bootstrap which increases speed but decreases customizability.
+    You can style with CSS and have max control at the cost of convenience.
+    You can style with styled-components which brings CSS into JS allowing you to do everything from one place
 
 ## Project Setup
 
